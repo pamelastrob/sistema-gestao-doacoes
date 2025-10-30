@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Declaração de Acessibilidade | Sistema de Gestão de Doações</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header role="banner" class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>
+                        <a href="index.html" aria-label="Voltar para a página inicial">
+                            Doações Solidárias
+                        </a>
+                    </h1>
+                </div>
+                <div class="header-controls">
+                    <button 
+                        id="theme-toggle" 
+                        class="theme-toggle"
+                        aria-label="Alternar tema escuro e claro"
+                        aria-pressed="false"
+                        tabindex="0">
+                        <span class="theme-icon" aria-hidden="true">Lua</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main role="main" class="main-content">
+        <section class="container" style="padding: 3rem 0;">
+            <h1>Declaração de Acessibilidade</h1>
+            
+            <article>
+                <h2>Compromisso com a Acessibilidade</h2>
+                <p>
+                    O Sistema de Gestão de Doações compromete-se com a acessibilidade e o acesso universal 
+                    de pessoas com deficiência ao nosso website. Estamos empenhados em oferecer um site 
+                    acessível e utilizável, independentemente da tecnologia ou habilidades de cada usuário.
+                </p>
+            </article>
+
+            <article>
+                <h2>Padrões de Acessibilidade</h2>
+                <p>
+                    Nosso website foi desenvolvido seguindo as diretrizes do WCAG (Web Content Accessibility 
+                    Guidelines) 2.1, nível AA. Nosso objetivo é garantir que o site seja:
+                </p>
+                <ul>
+                    <li><strong>Perceptível:</strong> Informações e componentes devem ser apresentados de forma 
+                    que os usuários possam perceber.</li>
+                    <li><strong>Operável:</strong> Componentes de interface devem ser operáveis por todos.</li>
+                    <li><strong>Compreensível:</strong> Informações e operações de interface devem ser claras.</li>
+                    <li><strong>Robusto:</strong> Conteúdo deve ser compatível com tecnologias assistivas atuais.</li>
+                </ul>
+            </article>
+
+            <article>
+                <h2>Recursos de Acessibilidade Implementados</h2>
+                
+                <h3>Navegação por Teclado</h3>
+                <ul>
+                    <li>Todos os elementos interativos podem ser acessados usando apenas o teclado</li>
+                    <li>Links de navegação por atalho (skip links) disponíveis</li>
+                    <li>Foco visível em todos os elementos interativos</li>
+                    <li>Navegação sequencial lógica através dos elementos</li>
+                </ul>
+
+                <h3>Navegação com Leitores de Tela</h3>
+                <ul>
+                    <li>Estrutura semântica adequada (cabeçalhos, listas, artigos)</li>
+                    <li>Atributos ARIA implementados corretamente</li>
+                    <li>Textos alternativos para imagens e ícones</li>
+                    <li>Regiões ao vivo para atualizações dinâmicas</li>
+                    <li>Rótulos descritivos para todos os campos de formulário</li>
+                </ul>
+
+                <h3>Contraste e Visualização</h3>
+                <ul>
+                    <li>Contraste mínimo de 4.5:1 para texto normal</li>
+                    <li>Contraste mínimo de 3:1 para texto grande e gráficos</li>
+                    <li>Modo escuro para reduzir fadiga visual</li>
+                    <li>Modo de alto contraste disponível</li>
+                    <li>Informação não transmitida apenas por cor</li>
+                </ul>
+
+                <h3>Formulários Acessíveis</h3>
+                <ul>
+                    <li>Campos obrigatórios claramente marcados</li>
+                    <li>Mensagens de erro claras e específicas</li>
+                    <li>Validação em tempo real com feedback acessível</li>
+                    <li>Instruções de preenchimento disponíveis</li>
+                    <li>Agrupamento lógico de campos relacionados</li>
+                </ul>
+
+                <h3>Responsividade</h3>
+                <ul>
+                    <li>Layout adaptável a diferentes tamanhos de tela</li>
+                    <li>Conteúdo acessível em dispositivos móveis</li>
+                    <li>Orientação de tela compatível</li>
+                </ul>
+            </article>
+
+            <article>
+                <h2>Como Usar os Recursos de Acessibilidade</h2>
+                
+                <h3>Navegação por Teclado</h3>
+                <ul>
+                    <li><strong>Tab:</strong> Avança para o próximo elemento</li>
+                    <li><strong>Shift + Tab:</strong> Volta para o elemento anterior</li>
+                    <li><strong>Enter ou Espaço:</strong> Ativa botões e links</li>
+                    <li><strong>Setas:</strong> Navega entre opções em menus e formulários</li>
+                    <li><strong>Escape:</strong> Fecha menus ou retorna ao início</li>
+                </ul>
+
+                <h3>Atalhos</h3>
+                <ul>
+                    <li><strong>Alt + H:</strong> Ir para o topo da página</li>
+                    <li><strong>Alt + M:</strong> Ir para o conteúdo principal</li>
+                </ul>
+            </article>
+
+            <article>
+                <h2>Problemas Conhecidos</h2>
+                <p>
+                    Estamos empenhados em melhorar continuamente a acessibilidade do nosso site. 
+                    Se encontrar algum problema ou tiver sugestões de melhoria, por favor, entre em contato.
+                </p>
+            </article>
+
+            <article>
+                <h2>Feedback e Contato</h2>
+                <p>
+                    Se encontrar alguma barreira de acessibilidade ou tiver sugestões de melhoria, 
+                    entre em contato conosco:
+                </p>
+                <ul>
+                    <li><strong>E-mail:</strong> acessibilidade@doacoessolidarias.org.br</li>
+                    <li><strong>Telefone:</strong> (11) 9999-9999</li>
+                </ul>
+                <p>
+                    Responderemos à sua mensagem em até 48 horas úteis.
+                </p>
+            </article>
+
+            <article>
+                <h2>Atualizações</h2>
+                <p>
+                    Esta declaração foi atualizada pela última vez em dezembro de 2024. Nos esforçamos 
+                    para manter e melhorar continuamente a acessibilidade do nosso website.
+                </p>
+            </article>
+
+            <div style="margin-top: 2rem;">
+                <a href="index.html" class="btn btn-primary">Voltar para o Início</a>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Sistema de Gestão de Doações. Todos os direitos reservados.</p>
+                <p class="footer-author">Desenvolvido por <strong>Pamela Strob Mancegozo Lima</strong></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
