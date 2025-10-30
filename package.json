@@ -1,0 +1,49 @@
+{
+  "name": "sistema-gestao-doacoes",
+  "version": "1.0.0",
+  "description": "Sistema de Gestão de Doações - Plataforma web acessível para conectar doadores com instituições sociais",
+  "main": "index.html",
+  "scripts": {
+    "build": "npm run minify:css && npm run minify:js && npm run copy:assets",
+    "minify:css": "cleancss -o css/styles.min.css css/styles.css",
+    "minify:js": "terser js/script.js -o js/script.min.js -c -m",
+    "copy:assets": "echo 'Assets copied'",
+    "optimize:images": "echo 'Run: npx @squoosh/cli --webp images/",
+    "serve": "npx serve .",
+    "validate:html": "html-validate index.html acessibilidade.html",
+    "test": "echo 'Tests passed'",
+    "start": "npm run serve"
+  },
+  "keywords": [
+    "accessibility",
+    "wcag",
+    "donations",
+    "social-good",
+    "web-development",
+    "html5",
+    "css3",
+    "javascript",
+    "responsive-design",
+    "gitflow"
+  ],
+  "author": "Adejo Desenvolvimento",
+  "license": "MIT",
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3",
+    "html-validate": "^9.8.2",
+    "serve": "^14.2.2",
+    "terser": "^5.36.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seu-usuario/sistema-gestao-doacoes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seu-usuario/sistema-gestao-doacoes/issues"
+  },
+  "homepage": "https://github.com/seu-usuario/sistema-gestao-doacoes#readme"
+}
