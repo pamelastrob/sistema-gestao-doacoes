@@ -1,7 +1,6 @@
-/**
- * Build Configuration for Production
- * Otimizações: Minificação, Compressão, Build
- */
+// Build Configuration for Production
+// Desenvolvido por: Pamela Strob Mancegozo Lima
+// Otimizacoes: Minificacao de CSS, JavaScript e HTML
 
 const fs = require('fs');
 const path = require('path');
