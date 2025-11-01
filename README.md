@@ -1,10 +1,8 @@
 # Sistema de Gestao de Doacoes
 
-## Sobre o Projeto
+Desenvolvido por: Pamela Strob Mancegozo Lima
 
 Sistema de Gestao de Doacoes e uma plataforma web desenvolvida para conectar doadores com instituicoes que trabalham por causas sociais. O projeto foi desenvolvido com foco em acessibilidade, seguindo as diretrizes WCAG 2.1 Nivel AA.
-
-Desenvolvido por: Pamela Strob Mancegozo Lima
 
 ## Caracteristicas
 
@@ -120,41 +118,41 @@ O projeto foi otimizado para producao com:
 - JavaScript modular
 - Carregamento assincrono de recursos
 
-## Contribuindo
+## Forma de Entrega
 
-Este e um projeto academico. Para contribuir:
+### Repositorio GitHub Completo
+- Codigo fonte versionado com Git
+- Historico de commits organizado e semantico
+- Pull Requests documentados (quando aplicavel)
+- Issues e milestones utilizados (quando aplicavel)
 
-1. Faca um fork do projeto
-2. Crie uma branch para sua feature (git checkout -b feature/NovaFeature)
-3. Commit suas mudancas (git commit -m 'Adiciona nova feature')
-4. Push para a branch (git push origin feature/NovaFeature)
-5. Abra um Pull Request
+### Documentacao Tecnica
+- README profissional completo (este arquivo)
 
-## Versionamento
+### Link Publico do GitHub
+- Link PUBLICO do projeto no GitHub: https://github.com/pamelastrob/sistema-gestao-doacoes
+- Codigo fonte e arquivos organizados em pastas
+- Arquivo README na raiz do repositorio com conteudo completo do projeto
 
-O projeto utiliza GitFlow:
+## Especificacoes Tecnicas Obrigatorias - Atendidas
 
-```
-v1.0.0 - Versao inicial
-v1.1.0 - Novas funcionalidades
-v1.1.1 - Correcoes de bugs
-```
+### Controle de Versao com Git/GitHub
+- Estrategia de branching GitFlow implementada
+- Historico de commits semantico e organizado (feat, fix, docs, style, refactor)
+- Sistema de releases com versionamento semantico (SemVer: v1.0.0)
 
-### Estrutura de Branches
-- main: Producao
-- develop: Desenvolvimento
-- feature: Novas funcionalidades
-- hotfix: Correcoes urgentes
-- release: Preparacao para release
+### Acessibilidade (WCAG 2.1 Nivel AA)
+- Navegacao por teclado em todos os componentes
+- Estrutura semantica adequada (HTML5 semantico)
+- Contraste minimo de 4.5:1 para texto normal
+- Suporte completo para leitores de tela (ARIA attributes)
+- Versao de alto contraste e modo escuro acessivel
 
-### Commits
-- feat: Nova funcionalidade
-- fix: Correcao de bug
-- docs: Documentacao
-- style: Formatacao
-- refactor: Refatoracao
-- test: Testes
-- chore: Tarefas de manutencao
+### Otimizacao para Producao
+- Minificacao de CSS implementada (build-config.js)
+- Minificacao de JavaScript implementada (build-config.js)
+- Minificacao de HTML implementada (build-config.js)
+- Compressao de imagens configurada (package.json com scripts)
 
 ## Checklist WCAG 2.1 Nivel AA
 
@@ -191,19 +189,44 @@ Pamela Strob Mancegozo Lima
 - Projeto academico - Primeiro Semestre
 - Desenvolvimento web com foco em acessibilidade
 
-## Referencias
+## Como Usar
 
-- WCAG 2.1 Guidelines
-- MDN Web Docs
-- WebAIM
-- A11y Project
+### Instalacao Local
 
-## Contato
+1. Clone o repositorio:
+```bash
+git clone https://github.com/pamelastrob/sistema-gestao-doacoes.git
+cd sistema-gestao-doacoes
+```
 
-- E-mail: contato@doacoessolidarias.org.br
-- Telefone: (11) 9999-9999
-- Website: Declaracao de Acessibilidade (acessibilidade.html)
+2. Abra o arquivo index.html no navegador ou use um servidor local:
+```bash
+# Com Python
+python -m http.server 8000
+
+# Com Node.js
+npx serve
+```
+
+### Build para Producao
+
+Execute os scripts de otimizacao:
+```bash
+npm run build
+```
+
+Isso vai minificar CSS, JavaScript e HTML.
+
+## Desenvolvedora
+
+Pamela Strob Mancegozo Lima
+
+Desenvolvido como parte da atividade Experiencias Praticas - Programacao para Interfaces Web Entrega IV - Acessibilidade e Otimizacao.
 
 ---
 
-Desenvolvido com dedicacao para acessibilidade e responsabilidade social
+Este projeto demonstra conhecimento completo de:
+- HTML5, CSS3 e JavaScript
+- Git/GitHub e GitFlow
+- Acessibilidade WCAG 2.1 Nivel AA
+- Otimizacao para producao
