@@ -110,9 +110,7 @@ function disableHighContrast() {
     localStorage.setItem('contrast', 'normal');
 }
 
-// ============================================
 // Accessibility Features
-// ============================================
 
 function initAccessibility() {
     // Add skip link functionality
@@ -181,9 +179,7 @@ function initAccessibleRadioButtons() {
     });
 }
 
-// ============================================
 // Keyboard Navigation
-// ============================================
 
 function initKeyboardNavigation() {
     // Handle Escape key
@@ -223,9 +219,7 @@ function initKeyboardNavigation() {
     });
 }
 
-// ============================================
 // Smooth Scrolling
-// ============================================
 
 function initSmoothScrolling() {
     const links = document.querySelectorAll('a[href^="#"]');
@@ -255,9 +249,7 @@ function initSmoothScrolling() {
     });
 }
 
-// ============================================
 // Form Validation
-// ============================================
 
 function initFormValidation() {
     const form = document.querySelector('.donation-form');
