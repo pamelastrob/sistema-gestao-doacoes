@@ -1,18 +1,6 @@
-/**
- * Sistema de Gestão de Doações - JavaScript
- * WCAG 2.1 Nível AA Compliance
- * 
- * Features:
- * - Navegação por teclado completa
- * - Validação de formulários acessível
- * - Toggle de tema (claro/escuro)
- * - Modo alto contraste
- * - Mensagens de acessibilidade para leitores de tela
- */
-
-// ============================================
-// DOM Content Loaded
-// ============================================
+// Sistema de Gestao de Doacoes - JavaScript
+// Desenvolvido por: Pamela Strob Mancegozo Lima
+// Recursos: Navegacao por teclado, validacao de formularios, toggle de tema, modo alto contraste, suporte WCAG 2.1 AA
 
 document.addEventListener('DOMContentLoaded', function() {
     initTheme();
@@ -22,9 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initSmoothScrolling();
 });
 
-// ============================================
 // Theme Management
-// ============================================
 
 function initTheme() {
     const themeToggle = document.getElementById('theme-toggle');
